@@ -1,7 +1,7 @@
 <?php
-    define('SERVERNAME','127.0.0.1:3306');
+    define('SERVERNAME','localhost');
     define('USERNAME','root');
-    define('PASSWORD','mariadb');
+    define('PASSWORD','');
     define('DBNAME','students');
 
     $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
